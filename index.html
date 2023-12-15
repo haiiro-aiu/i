@@ -1,0 +1,259 @@
+ <html>
+
+
+   <head>
+    <!--拡大画像がポップアップ--!>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+    <!--拡大画像がポップアップ--!>
+
+     <meta chearset="utf-8">
+     <mata http-equiv="content-langage" content="ja">
+      <script>
+
+
+
+        var CookieMC={
+	get:function(name) {
+		var match=('; '+document.cookie+';').match('; '+name+'=(.*?);');
+		return match?decodeURIComponent(match[1]):'';
+	},
+	set:function(name,value,expires,domain,path,secure) {
+		var cookieTemp=name+'='+encodeURIComponent(value);
+		if (typeof expires!='undefined') cookieTemp+='; expires='+new Date(expires).toUTCString();
+		if (typeof domain!='undefined') cookieTemp+='; domain='+domain;
+		if (typeof path!='undefined') cookieTemp+='; path='+path;
+		if (secure) cookieTemp+='; secure';
+		document.cookie=cookieTemp;
+	}
+};
+chkAgeKey='MediaClip';
+inAgeKey='OK18';
+mcexpires=new Date();
+mcexpires.setFullYear(mcexpires.getFullYear()+1); /* 保存期間：1年 */
+if (CookieMC.get(chkAgeKey) != inAgeKey) {
+	chkAge=confirm('はじめまして\n\nご覧いただきありがとうございます。当ページを他に転載、拡散、公開することを禁止します。');
+	if (chkAge == false) {
+		inAgeKey='';
+		window.location = "http://www.google.co.jp/";
+	}
+}
+CookieMC.set(chkAgeKey,inAgeKey,mcexpires,document.domain,'/');
+
+<!--画像をクリックでふわっと拡大スクリプト--!>
+const box3 = document.querySelector('.box_3');
+box3.addEventListener('click', () => {
+  box3.classList.toggle('scale');
+});
+<!--画像をクリックでふわっと拡大スクリプト--!>
+    </script>
+
+
+
+
+   </head>
+
+<body>
+
+  <header id="header">
+    
+
+
+    <div class="inner">
+      <link rel="stylesheet" href="header.css">
+        <!-- ハンバーガーメニュー部分 -->
+        <div class="nav">
+          
+          <link rel="stylesheet" href="hamburger.css">
+      
+          <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+          <input id="drawer_input" class="drawer_hidden" type="checkbox">
+      
+          <!-- ハンバーガーアイコン -->
+          <label for="drawer_input" class="drawer_open"><span></span></label>
+      
+          <!-- メニュー -->
+          <nav class="nav_content">
+            <ul class="nav_list">
+              <link rel="stylesheet" href="hamburger.css">
+              <link rel="stylesheet" href="menu_style.css">
+              
+
+            <ul class="menu">
+              <link rel="stylesheet" href="menu_style.css">
+              <li><a href="index.html"style="text-decoration:none;">portfolio</style></a></li><br>
+              <li><a href="index02.html"style="text-decoration:none;">profile</a></li><br>
+              
+           </ul>
+          </nav>
+      
+      
+      
+        </div>
+      </ul>
+    </div>
+      
+      
+
+<body bgcolor="#e8e6e6">
+
+
+
+
+
+</body>
+
+
+
+     
+      
+        <style>
+          .fade{
+              animation: fadeIn 3s ;
+            }
+            @keyframes fadeIn
+            {
+              0% {
+                opacity: 0;
+              }
+              100% {
+                opacity: 1;
+              }
+          }
+
+          </style>
+
+
+ 
+
+
+
+
+
+
+
+
+
+     
+<a href="index.html"><img src="2224025_kirakira02.gif"></a>
+<link rel="stylesheet" href="style01.css">
+      
+  </header>
+
+
+
+
+
+  
+
+
+  <style>
+    .fade{
+        animation: fadeIn 3s ;
+      }
+      @keyframes fadeIn
+      {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+    }
+    
+    </style>
+
+<br>
+
+
+<div id="top">
+  <div class="video">
+    <video src="siro_hai_GIFyou2.mp4" autoplay loop muted playsinlin>
+    </video>
+ </div>
+
+ 
+  
+    <div class="item-list">
+      <link rel="stylesheet" href="style02.css">
+
+      <div class="item">
+        <div class="box_3"><figure class="image"><img src="kakukakuha-to_fure-mu02.gif" alt=""></figure></div>
+        <div class="body">
+          <p class="title"><font color=#8d8b8b>BLENDER</font></p>
+          <p class="description"><font color=#8d8b8b>ループ映像をつくるためgif形式で作成</font></p>
+          <p class="description"><font color=#8d8b8b>制作時間1時間</font></p>
+          <p class="description"><font color=#8d8b8b><font size="2px">blenderでモデリングとアニメーションを付けました</font></font></p>
+          
+        </div>
+        
+      </div>
+      <div class="item">
+        <figure class="image"><div class="box_3"><img src="zeri-_fure-mu03.png" alt=""></div></figure>
+        <div class="body">
+          <p class="title"><font color=#8d8b8b>BLENDER</font></p>
+          <p class="description"><font color=#8d8b8b>YouTube動画を参考に作成</font></p>
+          <p class="description"><font color=#8d8b8b>制作時間5時間</font></p>
+          <p class="description"><font color=#8d8b8b><font size="2px">blenderでモデリングをしました</font></font></p>
+          
+        </div>
+      </div>
+      <div class="item">
+        <figure class="image"><img src="fuusenn_fure-mu02.png" alt=""></figure>
+        <div class="body">
+          <p class="title"><font color=#8d8b8b>BLENDER</font></p>
+          <p class="description"><font color=#8d8b8b>YouTube動画を参考に作成</font></p>
+          <p class="description"><font color=#8d8b8b>制作時間5時間</font></p>
+          <p class="description"><font color=#8d8b8b><font size="2px">blenderでモデリングをしました</font></font></p>
+          
+        </div>
+
+        </div><div class="item">
+      <figure class="image"><img src="gizagiza_flame01.gif" alt=""></figure>
+      <div class="body">
+        <p class="title"><font color=#8d8b8b>BLENDER</font></p>
+        <p class="description"><font color=#8d8b8b>光に注目して作成</font></p>
+        <p class="description"><font color=#8d8b8b>制作時間5時間</font></p>
+      </div>
+
+      </div><div class="item">
+        <figure class="image"><a href="https://www.figma.com/proto/DOV77lsbX0leECczGRbFcj/sample_wf?type=design&t=9C4NQ8CdgJd1SyDJ-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=14%3A11&node-id=14-11&mode=design"><img src="web_ennsyuu_hotelu_fure-mu01.png" alt=""></a></figure>
+        <div class="body">
+          <p class="title"><font color=#8d8b8b>FIGMA</font></p>
+          <p class="description"><font color=#8d8b8b>WEB演習の授業課題として作成</font></p>
+          <p class="description"><font color=#8d8b8b>制作時間1時間</font></p>
+          <p class="description"><font color=#8d8b8b><font size="2px">figumaで架空のホテルのスマートフォン用アプリケーションのデザインしプロトタイプを作成しました</font></font></p>
+        </div>
+        </div><div class="item">
+          <figure class="image"><img src="hoshi_haikei03.gif" alt=""></figure>
+          <div class="body">
+            <p class="title"><font color=#8d8b8b>AfterEffects</font></p>
+            <p class="description"><font color=#8d8b8b>背景として作成</font></p>
+            <p class="description"><font color=#8d8b8b>制作時間13時間</font></p>
+            <p class="description"><font color=#8d8b8b><font size="2px">aftereffectsにて図形を加工し、映像にしました</font></font></p>
+          </div>
+          </div><div class="item">
+        <figure class="image"><a href="https://youtu.be/232gxRVmykI?feature=shared"> <img src="kyouikuronn_fure-mu01.png" alt=""></figure>
+        <div class="body">
+          <p class="title"><font color=#8d8b8b>AfterEffects</font></p>
+          <p class="description"><font color=#8d8b8b>学芸員課程の教育論の授業課題として作成</font></p>
+          <p class="description"><font color=#8d8b8b>制作時間8時間</font></p>
+          <p class="description"><font color=#8d8b8b><font size="2px">photoshopにてミケランジェロの『天地創造』を加工し、premiereproにて動画にしました</font></font></p>
+        </div>
+        <br>
+        
+      </div>
+    
+  </div>
+    
+   
+   
+
+  </div>
+
+  
+
+  </body>
+</body>
+    </html>
